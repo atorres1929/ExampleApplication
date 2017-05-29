@@ -1,0 +1,11 @@
+<resources>
+
+    <!--This contains all the global strings for the project -->
+
+    <string name="app_name">My Application</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="surpise">Surprise!</string>
+    <string name="editText">Hello World!</string>
+</resources>

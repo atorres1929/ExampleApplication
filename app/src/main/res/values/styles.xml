@@ -1,0 +1,29 @@
+<resources>
+
+    <!--
+        Note how I'm basically extending an existing Style
+
+        Java equivalent:
+
+        public class MyStyle extends ExistingStyle
+
+        This is me calling a theme "AppTheme" and extending the DayNight theme.
+
+        Notice also, I reference colorPrimary, and the other colors
+        BUT
+        There are 2 different color values, one in the Night, and the other in NotNight
+
+        Android will know what color to choose depending on what state the app is in (Time of day)
+        OR
+        It will know what to choose based on my programatically telling it to be day/night mode
+    -->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

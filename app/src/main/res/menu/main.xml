@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The menu that will be displayed when you click the top right (3 vertical dot) button-->
+
+    <item
+        android:id="@+id/mnu_main_DayMode"
+        android:title="Day Mode" />
+    <item
+        android:id="@+id/mnu_main_NightMode"
+        android:title="Night Mode" />
+    <item
+        android:id="@+id/mnu_main_About"
+        android:title="About" />
+</menu>
